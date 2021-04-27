@@ -1782,7 +1782,26 @@ textarea {
 
 .thumbnail {
 	width: 100%;
-	height: auto;
+	height: 200px;
+	;
+}
+
+.who {
+	display: flex;
+	justify-content: space-between;
+}
+
+.who-header {
+	padding-bottom: 20px;
+}
+
+.mypic {
+	width: 45%;
+}
+
+.myinfo {
+	text-align: left;
+	width: 50%;
 }
 
 .image {
@@ -2629,6 +2648,20 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 /* Mobile */
 
 @media screen and (max-width: 736px) {
+	.who {
+		flex-direction: column;
+		/* justify-content: center; */
+		align-items: center;
+	}
+	.mypic {
+		width: 80%;
+		/* height: 50%; */
+	}
+	.myinfo {
+		width: 80%;
+		text-align: center;
+		padding-top: 15px;;
+	}
 	/* Basic */
 	h2 {
 		font-size: 1em;
