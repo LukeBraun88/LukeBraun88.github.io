@@ -1797,6 +1797,8 @@ textarea {
 
 .mypic {
 	width: 45%;
+	border-radius: 10px;
+	/* box-shadow: -8px 8px 3px #474148 ; */
 }
 
 .myinfo {
@@ -2226,11 +2228,13 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 
 .feature .image {
 	display: inline-block;
-	height: 80%;
+	height: 75%;
 	overflow: hidden;
 	position: relative;
 	width: 50%;
+
 }
+
 
 .feature .image img {
 	display: block;
@@ -2250,7 +2254,7 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 .feature .content {
 	display: inline-block;
 	padding: 3.5em;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 	width: 48%;
 }
 
@@ -2660,7 +2664,8 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	.myinfo {
 		width: 80%;
 		text-align: center;
-		padding-top: 15px;;
+		padding-top: 15px;
+		;
 	}
 	/* Basic */
 	h2 {
