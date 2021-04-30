@@ -221,6 +221,18 @@ blockquote {
 	}
 }
 
+.button {
+	background-color: #4CAF50;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
 /* Row */
 
 .row {
@@ -2232,9 +2244,7 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	overflow: hidden;
 	position: relative;
 	width: 50%;
-
 }
-
 
 .feature .image img {
 	display: block;
